@@ -1,0 +1,17 @@
+{
+  "name": "@glints/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint rules for Glints projects.",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "main": "index.js",
+  "repository": "https://github.com/glints-dev/eslint-config",
+  "author": "Wong Yong Jie <yjwong92@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "eslint": ">= 5"
+  }
+}
