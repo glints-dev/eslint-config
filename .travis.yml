@@ -3,6 +3,8 @@ language: node_js
 node_js:
   - node
 
+script: "true"
+
 deploy:
   provider: npm
   email:
