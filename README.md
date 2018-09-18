@@ -1,8 +1,29 @@
-# ESLint Configs for Glints
+# ESLint Configs for Glints [![npm version](https://badge.fury.io/js/%40glints%2Feslint-config.svg)](https://badge.fury.io/js/%40glints%2Feslint-config)
 
 This repository contains shared rules for ESLint.
 
 It is used across many of our internal and external projects.
+
+# Usage Instructions
+
+To integrate this into your project, install the package:
+
+```
+npm install --save-dev @glints/eslint-config  # If using npm
+yarn add --dev @glints/eslint-config          # If using Yarn
+```
+
+Then add the following to your ESLint configuration:
+
+```js
+"extends": [
+  "@glints/eslint-config",
+
+  // Rules below are for projects that use React/JSX.
+  "@glints/eslint-config/react",
+  "@glints/eslint-config/jsx-control-statements"
+]
+```
 
 # Contribution Guidelines
 
