@@ -1,6 +1,6 @@
 {
   "name": "@glints/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint rules for Glints projects.",
   "keywords": [
     "eslint",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "private": false,
   "peerDependencies": {
-    "eslint": ">= 5"
+    "eslint": ">= 4"
   },
   "publishConfig": {
     "access": "public"
