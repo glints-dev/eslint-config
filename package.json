@@ -16,5 +16,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "eslint-plugin-react-hooks": "^2.0.1"
   }
 }
