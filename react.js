@@ -16,6 +16,8 @@ module.exports = {
     'react/react-in-jsx-scope': 2,
     'react/require-render-return': 'error',
     'react/self-closing-comp': 'warn',
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
 
     // React/JSX
     'react/jsx-boolean-value': ['warn', 'always'],
@@ -34,5 +36,6 @@ module.exports = {
   },
   plugins: [
     'react',
+    "react-hooks",
   ],
 };
