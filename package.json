@@ -1,6 +1,6 @@
 {
   "name": "@glints/eslint-config",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "ESLint rules for Glints projects.",
   "keywords": [
     "eslint",
@@ -18,7 +18,7 @@
     "access": "public"
   },
   "dependencies": {
-    "babel-eslint": "^8.2.3",
+    "babel-eslint": "^10.0.3",
     "eslint-plugin-babel": "^5.3.0",
     "eslint-plugin-react-hooks": "^2.2.0"
   }
