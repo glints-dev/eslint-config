@@ -12,7 +12,7 @@ module.exports = {
     'react/no-unknown-property': 'warn',
     'react/prefer-es6-class': 'warn',
     'react/prefer-stateless-function': 'warn',
-    'react/prop-types': 'warn',
+    'react/prop-types': 'error',
     'react/react-in-jsx-scope': 2,
     'react/require-render-return': 'error',
     'react/self-closing-comp': 'warn',

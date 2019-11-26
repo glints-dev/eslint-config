@@ -40,7 +40,7 @@ module.exports = {
     'no-sequences': 'error',
     'no-unmodified-loop-condition': 'error',
     'no-unused-expressions': 'error',
-    'no-unused-vars': 1,
+    'no-unused-vars': 'error',
     'no-useless-call': 'error',
     'no-useless-escape': 'error',
 
