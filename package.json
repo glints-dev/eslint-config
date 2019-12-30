@@ -1,6 +1,6 @@
 {
   "name": "@glints/eslint-config",
-  "version": "1.1.2",
+  "version": "2.0.0",
   "description": "ESLint rules for Glints projects.",
   "keywords": [
     "eslint",
