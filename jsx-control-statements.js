@@ -10,7 +10,8 @@ module.exports = {
     'jsx-control-statements/jsx-otherwise-once-last': 1,
     'jsx-control-statements/jsx-use-if-tag': 1,
     'jsx-control-statements/jsx-when-require-condition': 1,
-    'jsx-control-statements/jsx-jcs-no-undef': 0
+    'jsx-control-statements/jsx-jcs-no-undef': 2,
+    'react/jsx-no-undef': [2, { 'allowGlobals': true }],
   },
   extends: [
     'plugin:jsx-control-statements/recommended',
