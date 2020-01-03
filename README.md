@@ -27,6 +27,8 @@ Then add the following to your ESLint configuration:
 
 # Contribution Guidelines
 
+**Please do not bump version before your changes have been merged into the master branch. Also, please do not push git tags on this repo for commits that have not been merged to master yet, pushing these tags would cause an un-intended release to the NPM registry. Version bumps are supposed to be a shared global entity.**
+
 Refer to [this link](https://eslint.org/docs/developer-guide/shareable-configs) for documentation about sharable configurations and rules.
 
 Before modifying the rules, please notify the codebase owners because it may impact many downstream projects.
