@@ -3,7 +3,7 @@ language: node_js
 node_js:
   - node
 
-if: tag IS present
+if: tag IS present AND $TRAVIS_EVENT_TYPE != 'pull_request' AND branch = master
 
 script: "true"
 
