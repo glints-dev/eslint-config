@@ -7,7 +7,6 @@ module.exports = {
     'react/no-did-update-set-state': 'error',
     'react/no-direct-mutation-state': 'error',
     'react/no-is-mounted': 'error',
-    'react/no-set-state': 'error',
     'react/no-string-refs': 'error',
     'react/no-unknown-property': 'warn',
     'react/prefer-es6-class': 'warn',
