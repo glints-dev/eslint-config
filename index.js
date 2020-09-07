@@ -1,11 +1,12 @@
 module.exports = {
-  env: {
-    "es6": true,
-  },
+  parser: '@typescript-eslint/parser',
+  plugins: [
+    '@typescript-eslint',
+  ],
   extends: [
     'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
   ],
-  parser: 'babel-eslint',
   rules: {
     'strict': [2, 'never'],
 
@@ -29,7 +30,7 @@ module.exports = {
     'no-implicit-coercion': 'warn',
     'no-implicit-globals': 'error',
     'no-implied-eval': 'error',
-    'babel/no-invalid-this': 'error', // Until supported by eslint itself
+    'no-invalid-this': 'error',
     'no-loop-func': 'warn',
     'no-multi-spaces': ['warn', { exceptions: { ImportDeclaration: true } }],
     'no-multi-str': 'error',
@@ -74,7 +75,7 @@ module.exports = {
     'no-trailing-spaces': 'warn',
     'no-unneeded-ternary': 'warn',
     'no-whitespace-before-property': 'error',
-    'babel/object-curly-spacing': ['warn', 'always'],
+    'object-curly-spacing': ['warn', 'always'],
     'one-var-declaration-per-line': 'warn',
     'quotes': [2, 'single'],
     'semi': ['error', 'always'],
@@ -101,7 +102,4 @@ module.exports = {
     'prefer-template': 'warn',
     'template-curly-spacing': 'warn',
   },
-  plugins: [
-    'babel',
-  ],
 };
