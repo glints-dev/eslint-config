@@ -25,6 +25,14 @@ Then add the following to your ESLint configuration:
 ]
 ```
 
+For TypeScript support, add the following rules:
+```js
+"overrides": {
+  "files": ["**/*.ts", "**/*.tsx"],
+  "extends": ["@glints/eslint-config/typescript"]
+}
+```
+
 # Contribution Guidelines
 
 **Please do not bump version before your changes have been merged into the master branch. Also, please do not push git tags on this repo for commits that have not been merged to master yet, pushing these tags would cause an un-intended release to the NPM registry. Version bumps are supposed to be a shared global entity.**
